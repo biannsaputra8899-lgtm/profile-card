@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.profile-card {
+  width: 340px;
+  padding: 28px 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info-box img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4f8cff;
+}
+
+.info {
+  margin-top: 14px;
+}
+
+.info h2 {
+  font-size: 20px;
+  color: #222;
+}
+
+.info p {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #777;
+}
+
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 22px 0;
+  padding: 14px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.box p:first-child {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.box p:last-child {
+  font-size: 13px;
+  color: #888;
+}
+
+
+.btn-box {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-box button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Follow {
+  background: #4f8cff;
+  color: #fff;
+}
+
+.Follow:hover {
+  background: #3a74e0;
+}
+
+.Message {
+  background: #e8eaed;
+  color: #333;
+}
+
+.Message:hover {
+  background: #d8dadd;
+}
